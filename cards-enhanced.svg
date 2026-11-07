@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="248" viewBox="0 0 1200 248" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="248" gradientUnits="userSpaceOnUse"><stop stop-color="#100F20"/><stop offset=".52" stop-color="#111827"/><stop offset="1" stop-color="#101021"/></linearGradient>
+    <linearGradient id="aviator" x1="50" y1="28" x2="410" y2="218" gradientUnits="userSpaceOnUse"><stop stop-color="#58263D"/><stop offset=".55" stop-color="#302035"/><stop offset="1" stop-color="#19182B"/></linearGradient>
+    <linearGradient id="mines" x1="430" y1="30" x2="790" y2="215" gradientUnits="userSpaceOnUse"><stop stop-color="#17463D"/><stop offset=".55" stop-color="#133B39"/><stop offset="1" stop-color="#14252F"/></linearGradient>
+    <linearGradient id="penalty" x1="810" y1="30" x2="1170" y2="215" gradientUnits="userSpaceOnUse"><stop stop-color="#283C70"/><stop offset=".55" stop-color="#252D58"/><stop offset="1" stop-color="#191C36"/></linearGradient>
+    <linearGradient id="plane" x1="294" y1="82" x2="364" y2="170" gradientUnits="userSpaceOnUse"><stop stop-color="#FFAF8C"/><stop offset=".5" stop-color="#FF735F"/><stop offset="1" stop-color="#E84755"/></linearGradient>
+    <linearGradient id="diamond" x1="713" y1="103" x2="753" y2="153" gradientUnits="userSpaceOnUse"><stop stop-color="#A7FFE2"/><stop offset=".48" stop-color="#49E7B7"/><stop offset="1" stop-color="#10B88F"/></linearGradient>
+    <linearGradient id="gold" x1="1037" y1="66" x2="1099" y2="164" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF49B"/><stop offset=".46" stop-color="#FFD84E"/><stop offset="1" stop-color="#E9A91D"/></linearGradient>
+    <radialGradient id="bomb" cx="0" cy="0" r="1" gradientTransform="matrix(23 25 -24 22 678 119)" gradientUnits="userSpaceOnUse"><stop stop-color="#7187B4"/><stop offset=".48" stop-color="#40567F"/><stop offset="1" stop-color="#202C48"/></radialGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="matrix(104 62 -44 74 347 113)" gradientUnits="userSpaceOnUse"><stop stop-color="#FF6E65" stop-opacity=".3"/><stop offset="1" stop-color="#FF6E65" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowM" cx="0" cy="0" r="1" gradientTransform="matrix(100 50 -42 84 725 122)" gradientUnits="userSpaceOnUse"><stop stop-color="#37E8B5" stop-opacity=".22"/><stop offset="1" stop-color="#37E8B5" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowP" cx="0" cy="0" r="1" gradientTransform="matrix(90 58 -45 70 1075 117)" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD84E" stop-opacity=".2"/><stop offset="1" stop-color="#FFD84E" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".34"/></filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="12"/></filter>
+    <clipPath id="c1"><rect x="25" y="20" width="365" height="208" rx="22"/></clipPath>
+    <clipPath id="c2"><rect x="417" y="20" width="365" height="208" rx="22"/></clipPath>
+    <clipPath id="c3"><rect x="809" y="20" width="365" height="208" rx="22"/></clipPath>
+  </defs>
+  <rect width="1200" height="248" rx="16" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="25" y="20" width="365" height="208" rx="22" fill="url(#aviator)"/>
+    <rect x="417" y="20" width="365" height="208" rx="22" fill="url(#mines)"/>
+    <rect x="809" y="20" width="365" height="208" rx="22" fill="url(#penalty)"/>
+  </g>
+  <g clip-path="url(#c1)"><rect x="25" y="20" width="365" height="208" fill="url(#glowA)"/><ellipse cx="349" cy="119" rx="72" ry="50" fill="#FF7461" opacity=".13" filter="url(#soft)"/><path d="M25 224H390" stroke="#FF7066" stroke-width="5"/></g>
+  <g clip-path="url(#c2)"><rect x="417" y="20" width="365" height="208" fill="url(#glowM)"/><ellipse cx="724" cy="126" rx="75" ry="50" fill="#3BE7B5" opacity=".12" filter="url(#soft)"/><path d="M417 224H782" stroke="#50E6B3" stroke-width="5"/></g>
+  <g clip-path="url(#c3)"><rect x="809" y="20" width="365" height="208" fill="url(#glowP)"/><ellipse cx="1073" cy="117" rx="75" ry="52" fill="#FFDA59" opacity=".12" filter="url(#soft)"/><path d="M809 224H1174" stroke="#9290FF" stroke-width="5"/></g>
+  <g fill="#FAF9FF" font-family="Arial, Helvetica, sans-serif">
+    <text x="49" y="119" font-size="30" font-weight="900" font-style="italic" letter-spacing=".5">AVIATOR</text>
+    <text x="50" y="145" font-size="9.5" font-weight="700" letter-spacing="1.55">SEÑALES DE JUEGO</text>
+    <text x="441" y="119" font-size="30" font-weight="900" font-style="italic" letter-spacing=".5">MINES</text>
+    <text x="442" y="145" font-size="9.5" font-weight="700" letter-spacing="1.55">BUSCÁ EL BRILLO</text>
+    <text x="833" y="119" font-size="30" font-weight="900" font-style="italic" letter-spacing=".5">PENALTY</text>
+    <text x="834" y="145" font-size="9.5" font-weight="700" letter-spacing="1.55">MODO FÚTBOL</text>
+  </g>
+  <!-- Recognizable red single-propeller airplane -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- main wings: broad, swept wing and smaller tailplane -->
+    <path d="M300 124L330 111L365 128Q370 131 366 136L362 140L330 130L307 145L298 143L309 130L282 140Q277 141 277 136Q277 133 282 131Z" fill="url(#plane)" stroke="#FFE0D6" stroke-width="2.2"/>
+    <path d="M302 126L316 136M333 113L337 128" stroke="#FFD5C6" stroke-width="1.4" opacity=".8"/>
+    <!-- fuselage, pointed nose at upper right -->
+    <path d="M286 145Q296 133 309 121L347 88Q354 82 361 79Q366 77 367 81Q367 86 362 94L338 126Q328 139 312 148L292 158Q286 160 283 155Q281 151 286 145Z" fill="url(#plane)" stroke="#FFE0D6" stroke-width="2.2"/>
+    <path d="M310 121L337 119L329 133L310 140Z" fill="#F9B6A0" stroke="#FFE4DA" stroke-width="1.4"/>
+    <path d="M317 119L326 113L333 117L329 123Z" fill="#28253A" stroke="#FFE4DA" stroke-width="1.2"/>
+    <!-- propeller and motion trails -->
+    <path d="M365 73Q370 70 371 75L370 88Q369 92 366 89L363 84Z" fill="#FFD5C6"/>
+    <path d="M358 82L373 90M359 90L370 80" stroke="#FFF0E8" stroke-width="2.4"/>
+    <path d="M271 159L288 154M276 166L292 162" stroke="#FF8A70" stroke-width="3" opacity=".6"/>
+  </g>
+  <!-- Round cartoon bomb, lit fuse, and faceted diamond -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- fuse cap and curling cord -->
+    <path d="M672 103L679 98L687 104L684 111L676 114Z" fill="#101A2A" stroke="#A8BACF" stroke-width="2"/>
+    <path d="M679 101Q677 94 683 90Q688 87 692 92" stroke="#E8D39A" stroke-width="3"/>
+    <path d="M691 88L694 82M697 91L703 89M692 96L697 100" stroke="#FFB544" stroke-width="3"/>
+    <path d="M696 82L698 77M703 89L708 87M697 100L701 104" stroke="#FFF1AA" stroke-width="2"/>
+    <!-- spherical bomb -->
+    <circle cx="678" cy="132" r="29" fill="url(#bomb)" stroke="#A9BDD7" stroke-width="2.5"/>
+    <path d="M661 121Q667 111 678 110" stroke="#DCEBFF" stroke-width="2.4" opacity=".7"/>
+    <ellipse cx="669" cy="143" rx="7" ry="4" fill="#19243A" opacity=".45"/>
+    <!-- bright, cleanly faceted jewel -->
+    <path d="M713 117L727 102L750 104L766 120L749 151L727 145Z" fill="url(#diamond)" stroke="#D8FFF6" stroke-width="2.4"/>
+    <path d="M713 117L727 119L727 102M727 119L739 132L750 104M727 119L727 145M727 119L766 120M727 145L739 132L749 151M739 132L766 120" stroke="#E4FFF8" stroke-width="1.5" opacity=".9"/>
+    <path d="M728 105L749 107L760 119L739 120Z" fill="#B6FFF0" opacity=".46"/>
+  </g>
+  <!-- Clearly shaped goalkeeper glove and classic football -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- fingers are separated by distinct notches; broad cuff anchors the palm -->
+    <path d="M1037 145L1031 111Q1030 104 1036 102Q1042 101 1044 108L1049 91Q1051 84 1057 85Q1063 86 1062 93L1065 76Q1066 68 1072 69Q1079 69 1078 77L1080 91L1085 74Q1087 67 1093 69Q1100 70 1098 78L1095 100L1101 91Q1105 85 1110 89Q1115 93 1111 99L1102 119L1100 145L1091 154L1045 154Z" fill="url(#gold)" stroke="#FFF4B5" stroke-width="2.7"/>
+    <path d="M1037 142L1045 151L1095 151L1100 143L1098 159Q1069 166 1040 158Z" fill="#E4A51F" stroke="#FFF0A3" stroke-width="2.2"/>
+    <path d="M1046 111L1051 128M1060 96L1067 122M1077 83L1076 119M1094 84L1086 119M1106 101L1095 124" stroke="#FFF9D4" stroke-width="2" opacity=".8"/>
+    <path d="M1054 132Q1071 137 1090 132" stroke="#A86F16" stroke-width="2.5" opacity=".75"/>
+  </g>
+  <g transform="translate(1095 137)">
+    <circle r="25" fill="#111627" opacity=".48" transform="translate(2 3)"/>
+    <circle r="22" fill="#F8FAFF" stroke="#DCE3F1" stroke-width="2"/>
+    <path d="M0-9L8-5L6 4L-3 8L-9 1L-6-7Z" fill="#172033"/>
+    <path d="M-6-7L-15-14L-20-7L-17 1L-9 1M8-5L15-13L20-8L16 0L6 4M-3 8L-8 17L-2 21L7 17L6 4" fill="none" stroke="#172033" stroke-width="4.5" stroke-linejoin="round"/>
+    <path d="M-15-14L-6-7M15-13L8-5M-8 17L-3 8" stroke="#172033" stroke-width="2.2"/>
+  </g>
+  <g fill="none" stroke="#DAE2FF" stroke-width="2.5" stroke-linecap="round"><path d="M1122 91L1128 85M1130 99L1136 96"/></g>
+  <g fill="none" stroke="#D9DFEF" stroke-width="1.25" opacity=".25">
+    <rect x="25.6" y="20.6" width="363.8" height="206.8" rx="21.4"/><rect x="417.6" y="20.6" width="363.8" height="206.8" rx="21.4"/><rect x="809.6" y="20.6" width="363.8" height="206.8" rx="21.4"/>
+  </g>
+</svg>

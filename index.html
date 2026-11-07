@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es-PY">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a111a">
+  <meta name="description" content="Accede al panel de HACKBOT PRO para Aviator, Mines y Penalty.">
+  <title>HACKBOT PRO | Juegos</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090b16;--surface:#121526;--surface-2:#1a1e33;--line:#303653;--ink:#fff9f0;--muted:#c0c1d0;--subtle:#858ba7;--accent:#f5cc42;--accent-dark:#3b3012;--hot:#ff5c54;--violet:#9e78ff;--max:1120px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;min-width:320px;background:radial-gradient(ellipse at 50% 0%,#241537 0,transparent 48%),var(--bg);color:var(--ink);font:16px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}button,input{font:inherit}a{color:inherit}.shell{width:min(var(--max),calc(100% - 40px));margin-inline:auto}.topbar{height:66px;border-bottom:1px solid rgba(204,192,239,.12);display:flex;align-items:center;position:sticky;top:0;z-index:10;background:rgba(9,11,22,.92);backdrop-filter:blur(14px)}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-size:14px;font-weight:850;letter-spacing:.07em}.brand-mark{width:34px;height:34px;display:grid;place-items:center;border:1px solid #82682c;border-radius:11px;color:var(--accent);font:800 12px/1 ui-monospace,monospace;background:#292113}.nav-meta{display:flex;align-items:center;gap:12px;color:#c1c2d1;font-size:12px;letter-spacing:.07em;text-transform:uppercase}.online-chip{display:inline-flex;align-items:center;gap:8px;padding:7px 10px;border:1px solid #ffffff20;border-radius:999px;background:#17192b;font-size:10px;letter-spacing:.06em}.online-chip strong{color:#a7f0c4;font:800 12px ui-monospace,monospace}.online-status{color:#a5a8bc}.online-dot{width:7px;height:7px;border-radius:50%;background:#e3c650;box-shadow:0 0 9px #e3c65066}.online-chip[data-live=true] .online-dot{background:#69d6a6;box-shadow:0 0 10px #69d6a677}.status-dot{display:inline-block;width:8px;height:8px;margin-right:8px;border-radius:50%;background:#69d6a6;box-shadow:0 0 12px #69d6a677}
+    .hero{position:relative;isolation:isolate;overflow:hidden;border-bottom:1px solid rgba(204,192,239,.12);background:radial-gradient(ellipse at 50% 22%,rgba(110,63,168,.25),transparent 52%),linear-gradient(180deg,#111022,#090b16 90%)}.hero:before{content:"";position:absolute;inset:0;z-index:-1;opacity:.16;background-image:linear-gradient(rgba(198,176,246,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(198,176,246,.16) 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(#000,transparent 90%)}.hero-inner{min-height:0;padding:48px 0 62px;display:flex;flex-direction:column;align-items:center;gap:33px}.hero-copy{width:100%;max-width:820px;text-align:center}.eyebrow{display:flex;align-items:center;justify-content:center;gap:9px;color:#e4c95a;font:700 11px/1.3 ui-monospace,Consolas,monospace;letter-spacing:.16em;text-transform:uppercase}.eyebrow:before,.eyebrow:after{content:"";width:25px;height:1px;background:var(--accent)}h1{margin:15px 0 9px;font-size:clamp(38px,6vw,68px);line-height:.98;letter-spacing:-.06em;font-weight:950;text-transform:uppercase}h1 span{color:var(--accent);text-shadow:0 0 28px #f5cc4238}.hero-lede{max-width:620px;margin:0 auto;color:#c5c2d4;font-size:16px;line-height:1.55}.hero-lede strong{color:#fff;font-weight:750}.hero-actions{display:none}.hero-markets{display:none}
+    .game-grid{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch;gap:17px}.game-card{position:relative;height:260px;min-width:0;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:5px;border:1px solid rgba(255,255,255,.18);border-radius:16px;background:#121426;box-shadow:0 18px 42px #0008;isolation:isolate}.game-card img{display:block;width:100%;height:100%;object-fit:contain;object-position:center}.game-card.aviator{border-color:#882432;background:#07070d;box-shadow:0 18px 42px #a30e2938}.game-card.mines{border-color:#55577f;background:#252544}.game-card.penalty{border-color:#176bdf;background:#061437;box-shadow:0 18px 42px #0751d955}.game-card:after{content:"";position:absolute;inset:auto 0 0;height:4px;background:var(--stripe)}.game-card.aviator{--stripe:#ee1e38}.game-card.mines{--stripe:#07d5a5}.game-card.penalty{--stripe:#3f95ff}    .panel{width:min(100%,560px);border:1px solid #594779;border-radius:18px;background:linear-gradient(145deg,rgba(27,26,48,.98),rgba(17,19,35,.98));box-shadow:0 26px 70px #0008}.connect-card{padding:25px 28px}.card-head{display:block;text-align:center;padding-bottom:0;border:0}.card-kicker{margin:0 0 5px;color:#e3c650;font:700 10px ui-monospace,monospace;letter-spacing:.15em;text-transform:uppercase}.card-head h2{margin:0;font-size:25px;font-weight:900;letter-spacing:-.035em}.step-tag{display:none}.form-intro{max-width:410px;margin:6px auto 20px;color:#bbb8ca;text-align:center;font-size:13px}.field-label{display:block;margin:0 0 9px;text-align:left;font-size:13px;font-weight:750}.id-input{width:100%;height:58px;padding:0 17px;border:1px solid #6f648c;border-radius:10px;outline:none;background:#0c0e1b;color:var(--ink);font-size:18px;letter-spacing:.04em;transition:border-color .16s,box-shadow .16s}.id-input::placeholder{color:#747791}.id-input:focus-visible{border-color:var(--accent);box-shadow:0 0 0 4px #f5cc4233}.id-input[aria-invalid=true]{border-color:var(--hot);box-shadow:0 0 0 3px #ff5c5425}.helper{margin:7px 0 16px;color:#989bb0;font-size:12px}.submit{width:100%;min-height:58px;padding:13px 16px;border:1px solid #ffdf6b;border-radius:10px;background:linear-gradient(180deg,#ffdf63,#f0ba2c);color:#221800;font-size:17px;font-weight:950;letter-spacing:.01em;cursor:pointer;box-shadow:0 8px 24px #f5cc4228;transition:filter .16s,transform .16s,box-shadow .16s}.submit:hover:not(:disabled){filter:brightness(1.08);transform:translateY(-2px);box-shadow:0 11px 28px #f5cc4244}.submit:disabled{opacity:.66;cursor:wait}.submit:focus-visible,.copy-button:focus-visible,.deposit-link:focus-visible{outline:3px solid white;outline-offset:3px}.form-message{min-height:0;margin:0;color:#c9eedb;font-size:12px}.form-message:not(:empty){margin-top:10px;padding:9px 11px;border:1px solid #ff817653;border-radius:7px;background:#ff5c5410;color:#ffb3ad}.form-message[role=status]:not([data-error=true]):not(:empty){border-color:#7de0b554;background:#57e2a310;color:#bdf4d5}.connection-result{padding-top:18px;color:#e6e1f0;font-size:14px}.connection-result p{margin:4px 0}.connection-result strong{color:var(--accent)}.signal-button{margin-top:14px}.connecting{border-color:#e3c650}.connect-card.is-connected{border-color:#7cdbad}
+    .error-box{margin-top:0;padding:20px;border:1px solid #756039;border-radius:12px;background:linear-gradient(145deg,#282318,#171a28);scroll-margin-top:90px;animation:appear .3s ease both}.error-box[hidden]{display:none}@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}.error-box h3{margin:0 0 7px;color:#f4d988;font-size:18px}.error-copy{margin:0;color:#d0ccbf;font-size:13px}.deposit-label{margin:17px 0 2px;color:#e0d8bd;font-size:13px}.deposit-amount{font-size:30px;font-weight:900;letter-spacing:-.03em;color:var(--accent)}.deposit-usd{display:none}.deposit-link{min-height:50px;display:flex;align-items:center;justify-content:center;margin:15px 0 12px;border-radius:8px;background:#ffcf45;color:#241900;text-decoration:none;font-size:14px;font-weight:900;transition:filter .15s}.deposit-link:hover{filter:brightness(1.08)}.promo-card{padding:13px;border:1px solid #ffffff21;border-radius:9px;background:#0b0e1b88}.promo-title{color:#e4dfed;font-size:13px}.promo-row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:9px}.promo-code{color:#a7f0c4;font:800 20px ui-monospace,Consolas,monospace;letter-spacing:.08em}.copy-button{min-height:40px;padding:0 13px;border:1px solid #58627a;border-radius:7px;background:#20263a;color:#fff;font-size:12px;font-weight:750;cursor:pointer}.copy-button:hover{border-color:#b8a3fa}.promo-note{margin:7px 0 0;color:#b7b5c5;font-size:11px}.offer-timer{display:none}
+    .section{padding:43px 0;border-bottom:1px solid rgba(204,192,239,.1)}.section-head{max-width:640px;margin:0 auto 22px;text-align:center}.section-label{margin:0 0 7px;color:#e3c650;font:700 10px ui-monospace,monospace;letter-spacing:.15em;text-transform:uppercase}.section h2{margin:0;font-size:clamp(24px,3vw,34px);line-height:1.12;letter-spacing:-.04em;font-weight:850}.section-intro{max-width:540px;margin:9px auto 0;color:var(--muted);font-size:13px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.step-card{min-height:110px;padding:17px;border:1px solid #ffffff1a;border-radius:11px;background:linear-gradient(145deg,#1b1e31,#131625)}.step-number{display:none}.step-card h3{margin:0 0 5px;font-size:15px;font-weight:800}.step-card p{margin:0;color:#b8b8c8;font-size:12px;line-height:1.5}.faq-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}.faq-item{padding:15px 16px;border:1px solid #ffffff18;border-radius:10px;background:#151829}.faq-item h3{margin:0 0 5px;font-size:13px;font-weight:800}.faq-item p{margin:0;color:#b8b8c8;font-size:12px;line-height:1.55}.results-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.win-card{padding:15px;border:1px solid #ffffff1a;border-radius:11px;background:linear-gradient(145deg,#1b1e31,#131625)}.player-id{display:inline-block;color:#b7c9d2;font:11px ui-monospace,monospace}.prize{margin-top:10px;color:#f5d777;font-size:16px;font-weight:850}.time{margin-top:4px;color:#9297ad;font-size:11px}.results-disclosure{margin:13px 0 0;color:#9297ad;font-size:11px;line-height:1.5}.footer{padding:22px 0 28px;color:#9699ad;font-size:11px}.footer-inner{display:flex;justify-content:space-between;gap:16px}.footer p{margin:0}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    .results-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.win-card{padding:15px;border:1px solid #ffffff1a;border-radius:11px;background:linear-gradient(145deg,#1b1e31,#131625)}.player-id{display:inline-block;color:#b7c9d2;font:11px ui-monospace,monospace}.prize{margin-top:10px;color:#f5d777;font-size:16px;font-weight:850}.time{margin-top:4px;color:#9297ad;font-size:11px}.results-disclosure{margin:13px 0 0;color:#9297ad;font-size:11px;line-height:1.5}    .online-chip{gap:5px;padding:6px 8px;font-size:9px}.online-status{max-width:82px;line-height:1.05}@media(max-width:700px){.shell{width:calc(100% - 28px)}.topbar{height:58px}.nav-meta{font-size:10px}.hero-inner{padding:32px 0 38px;gap:23px}h1{font-size:clamp(34px,9vw,52px)}.hero-lede{font-size:14px}.game-grid{grid-template-columns:1fr;gap:12px}.game-card{height:250px;padding:5px;border-radius:14px}.connect-card{padding:21px 18px}.card-head h2{font-size:23px}.id-input{height:56px}.submit{min-height:57px}.section{padding:34px 0}.steps{grid-template-columns:1fr;gap:8px}.step-card{min-height:0;padding:13px 15px}.faq-list{grid-template-columns:1fr}.results-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.win-card{padding:12px}.prize{font-size:15px}.footer-inner{display:block}.footer-inner p+p{margin-top:6px}}
+    @media(max-width:390px){.shell{width:calc(100% - 22px)}.brand{font-size:12px}.nav-meta{font-size:9px}.game-card{height:245px}.connect-card{padding:19px 15px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+  <header class="topbar"><nav class="nav shell" aria-label="Navegación principal"><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">HB</span><span>HACKBOT PRO</span></a><div class="nav-meta"><span class="online-chip" id="onlineWidget" data-source="" data-live="false"><i class="online-dot" aria-hidden="true"></i><span>En línea</span><strong id="onlineCount" hidden></strong><span class="sr-only" id="onlineAnnouncement" aria-live="polite"></span><span class="online-status" id="onlineStatus">Sin datos · fuente no conectada</span></span></div></nav></header>
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="hero-title"><div class="hero-inner shell">
+      <div class="hero-copy"><div class="eyebrow">HACKBOT PRO · Paraguay</div><h1 id="hero-title">Elegí tu juego.<br><span>Revisá el acceso.</span></h1><p class="hero-lede">Panel para <strong>Aviator, Mines y Penalty</strong>. Introducí tu ID de 1xBet para continuar.</p></div>
+      <div class="game-grid" aria-label="Juegos disponibles">
+        <article class="game-card aviator" aria-label="AVIATOR">
+          <img src="assets/aviator-card.png" alt="AVIATOR: avión rojo con monedas sobre fondo oscuro" width="289" height="172" decoding="async">
+        </article>
+        <article class="game-card mines" aria-label="MINES">
+          <img src="assets/mines-card.png" alt="MINES: tablero con diamantes verdes y bombas rojas" width="773" height="673" decoding="async">
+        </article>
+        <article class="game-card penalty" aria-label="PENALTY">
+          <img src="assets/penalty-card.png" alt="PENALTY: arquero con uniforme azul salta frente al arco detrás de la pelota" width="341" height="197" decoding="async">
+        </article>
+      </div>      <section class="panel connect-card" id="formulario" aria-labelledby="connect-title"><div class="card-head"><p class="card-kicker">Acceso al servicio</p><h2 id="connect-title">Conectá tu cuenta</h2></div><p class="form-intro">Ingresá el ID de tu cuenta 1xBet para iniciar.</p><form id="connectForm" novalidate><label class="field-label" for="userId">ID de usuario de 1xBet</label><input class="id-input" id="userId" name="userId" type="text" inputmode="numeric" autocomplete="off" placeholder="Ej.: 1234567890" aria-describedby="idHelp formMessage"><p class="helper" id="idHelp">Solo números · mínimo 4 dígitos</p><button class="submit" type="submit">Continuar <span aria-hidden="true">→</span></button><p class="form-message" id="formMessage" role="status" aria-live="polite"></p></form><div class="connection-result" id="connectionResult" hidden></div></section>
+      <section class="error-box" id="errorBox" aria-labelledby="errorTitle" hidden><h3 id="errorTitle">Saldo insuficiente</h3><p class="error-copy">Para acceder a HACKBOT PRO, realizá el depósito mínimo en 1xBet.</p><p class="deposit-label">Depósito mínimo:</p><div class="deposit-amount">35.000 PYG</div><a class="deposit-link" href="https://reffpa.com/L?tag=d_6301756m_14205c_&amp;site=6301756&amp;ad=14205&amp;r=registration" target="_blank" rel="noopener noreferrer">Depositar en 1xBet <span aria-hidden="true">↗</span></a><div class="promo-card"><div class="promo-title">Código promocional</div><div class="promo-row"><code class="promo-code" id="promoCode">CLA111</code><button class="copy-button" id="copyPromo" type="button">Copiar</button></div><p class="promo-note" id="copyMessage" role="status" aria-live="polite">Ingresá el código al registrarte.</p></div></section>
+    </div></section>
+    <section class="section" aria-labelledby="steps-title"><div class="shell"><div class="section-head"><p class="section-label">Rápido y simple</p><h2 id="steps-title">Cómo continuar</h2></div><div class="steps"><article class="step-card"><h3>01 · Ingresá tu ID</h3><p>Usá el ID numérico de tu cuenta 1xBet.</p></article><article class="step-card"><h3>02 · Iniciá la conexión</h3><p>Revisamos que tenga el formato correcto.</p></article><article class="step-card"><h3>03 · Revisá el acceso</h3><p>Consultá el depósito mínimo y el código disponible.</p></article></div></div></section>
+    <section class="section" aria-labelledby="faq-title"><div class="shell"><div class="section-head"><p class="section-label">Ayuda</p><h2 id="faq-title">Preguntas frecuentes</h2></div><div class="faq-list"><article class="faq-item"><h3>¿Qué ID tengo que ingresar?</h3><p>El identificador numérico de tu cuenta 1xBet, de al menos 4 dígitos.</p></article><article class="faq-item"><h3>¿Cuál es el depósito mínimo?</h3><p>35.000 PYG. El mismo monto se muestra en el paso de acceso.</p></article></div></div></section>
+    <section class="section results-section" aria-labelledby="results-title"><div class="shell"><div class="section-head"><p class="section-label">Participantes</p><h2 id="results-title">Resultados registrados</h2><p class="section-intro">Registros conservados del bloque original.</p></div><div class="results-grid" id="winList" aria-live="off"></div><p class="results-disclosure">Estos importes son contenido heredado del archivo anterior. El proyecto no incluye una fuente para verificarlos.</p></div></section>  </main>
+  <footer class="footer"><div class="footer-inner shell"><p>© 2026 HACKBOT PRO · Paraguay</p><p>Juga con responsabilidad · +18 · Creado por Carlos Gutiérrez</p></div></footer>  <script>
+    const winnerSets = [
+      [{id:'8283',amount:'920,000',mins:3},{id:'3099',amount:'1,512,000',mins:7},{id:'4518',amount:'1,230,000',mins:12},{id:'9476',amount:'5,200,000',mins:22}],
+      [{id:'2033',amount:'2,930,000',mins:3},{id:'1187',amount:'640,000',mins:7},{id:'3371',amount:'3,100,000',mins:12},{id:'5640',amount:'1,875,000',mins:22}]
+    ];
+    const winList=document.getElementById('winList');
+    winList.innerHTML=winnerSets.flat().map(function(w){return '<article class="win-card"><div class="player-id">ID: ****'+w.id+'</div><div class="prize">'+w.amount+' PYG</div><div class="time">Hace '+w.mins+' min</div></article>';}).join('');
+
+    const onlineWidget=document.getElementById('onlineWidget');
+    // Configure data-source with a trusted endpoint returning {"onlineUsers": number}. Leave empty until then.
+    const onlineSource=onlineWidget.dataset.source.trim();
+    const onlineCount=document.getElementById('onlineCount');
+    const onlineStatus=document.getElementById('onlineStatus');
+    const onlineAnnouncement=document.getElementById('onlineAnnouncement');
+    let displayedOnlineCount=0;
+    let hasOnlineValue=false;
+    let onlineAnimationFrame=0;
+    function animateOnlineCount(target){
+      if(!hasOnlineValue){
+        hasOnlineValue=true;
+        displayedOnlineCount=target;
+        onlineCount.textContent=new Intl.NumberFormat('es-PY').format(target);
+        onlineAnnouncement.textContent='Usuarios conectados: '+onlineCount.textContent;
+        return;
+      }
+      cancelAnimationFrame(onlineAnimationFrame);
+      const start=displayedOnlineCount;
+      const startedAt=performance.now();
+      function frame(now){
+        const progress=Math.min((now-startedAt)/1800,1);
+        displayedOnlineCount=Math.round(start+(target-start)*progress);
+        onlineCount.textContent=new Intl.NumberFormat('es-PY').format(displayedOnlineCount);
+        if(progress<1)onlineAnimationFrame=requestAnimationFrame(frame);
+        else onlineAnnouncement.textContent='Usuarios conectados: '+onlineCount.textContent;
+      }
+      onlineAnimationFrame=requestAnimationFrame(frame);
+    }
+    async function refreshOnlineCount(){
+      if(!onlineSource)return;
+      try{
+        const response=await fetch(onlineSource,{headers:{Accept:'application/json'},cache:'no-store'});
+        if(!response.ok)throw new Error('Online statistics unavailable');
+        const data=await response.json();
+        if(!Number.isSafeInteger(data.onlineUsers)||data.onlineUsers<0)throw new Error('Invalid online count');
+        onlineCount.hidden=false;
+        onlineWidget.dataset.live='true';
+        onlineStatus.textContent='conectados';
+        animateOnlineCount(data.onlineUsers);
+      }catch(error){
+        onlineCount.hidden=true;
+        onlineWidget.dataset.live='false';
+        onlineStatus.textContent='Sin datos disponibles';
+      }
+    }
+    if(onlineSource){refreshOnlineCount();window.setInterval(refreshOnlineCount,30000);}
+
+    const connectCard=document.querySelector('.connect-card');
+    const connectForm=document.getElementById('connectForm');
+    const connectInput=document.getElementById('userId');
+    const connectionResult=document.getElementById('connectionResult');
+    const errorBox=document.getElementById('errorBox');
+    const message=document.getElementById('formMessage');
+    connectForm.addEventListener('submit',function(event){
+      event.preventDefault();
+      const id=connectInput.value.trim();
+      if(!/^\d{4,}$/.test(id)){
+        message.textContent='Ingresá un ID válido de 1xBet (mínimo 4 dígitos).';
+        message.dataset.error='true';
+        connectInput.setAttribute('aria-invalid','true');
+        connectInput.focus();
+        alert(message.textContent);
+        return;
+      }
+      connectInput.removeAttribute('aria-invalid');
+      message.removeAttribute('data-error');
+      const submitButton=connectForm.querySelector('button[type="submit"]');
+      submitButton.disabled=true;
+      submitButton.textContent='Conectando…';
+      connectCard.classList.add('connecting');
+      window.setTimeout(function(){
+        connectForm.hidden=true;
+        connectionResult.innerHTML='<p>ID: <strong>'+id+'</strong></p><p>ID aceptado.</p><button id="getSignalButton" class="submit signal-button" type="button" aria-controls="errorBox" aria-expanded="false">Ver acceso</button>';
+        connectionResult.hidden=false;
+        connectCard.classList.remove('connecting');
+        connectCard.classList.add('is-connected');
+        document.getElementById('getSignalButton').addEventListener('click',function(event){
+          errorBox.hidden=false;
+          event.currentTarget.setAttribute('aria-expanded','true');
+
+          errorBox.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'});
+        });
+      },1250);
+    });
+    connectInput.addEventListener('input',function(event){event.currentTarget.removeAttribute('aria-invalid');message.removeAttribute('data-error');message.textContent='';});
+    document.getElementById('copyPromo').addEventListener('click',async function(){
+      const copyMessage=document.getElementById('copyMessage');
+      try{
+        await navigator.clipboard.writeText(document.getElementById('promoCode').textContent.trim());
+        copyMessage.textContent='Código copiado: CLA111';
+      }catch(error){
+        const range=document.createRange();range.selectNodeContents(document.getElementById('promoCode'));
+        const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);
+        copyMessage.textContent='Seleccioná y copiá el código CLA111.';
+      }
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
